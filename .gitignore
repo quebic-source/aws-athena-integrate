@@ -1,0 +1,3 @@
+node_modules
+.idea
+!src/layers/common/common-lib/nodejs/node14/node_modules

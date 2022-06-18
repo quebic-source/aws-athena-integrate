@@ -1,0 +1,171 @@
+{
+	"info": {
+		"_postman_id": "56e921e1-6a36-435d-8f93-c20d88c12296",
+		"name": "taxes",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "8446910"
+	},
+	"item": [
+		{
+			"name": "list",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "eyJraWQiOiJDOGdMcHBcL216akZ0RVNKMzFvRXJ5UERucG5xNHFDdnprdlwvUHJseGRHcVk9IiwiYWxnIjoiUlMyNTYifQ.eyJzdWIiOiI4YWYzNDFiMi1kMjM1LTRhNTgtYmZmNy1lNGYxNjE3ZWNmZmMiLCJpc3MiOiJodHRwczpcL1wvY29nbml0by1pZHAudXMtZWFzdC0xLmFtYXpvbmF3cy5jb21cL3VzLWVhc3QtMV8yaWp6WDA2SDIiLCJjbGllbnRfaWQiOiI0dXRkZWV0ZW82MmFxM3AzOWQwY3F1dDFnNCIsIm9yaWdpbl9qdGkiOiI2NWE0YThhOS0zOThhLTRhZWQtYjNhMS0wOWRjMzU2NjJhZWIiLCJldmVudF9pZCI6IjliMjIyNjZjLTJhMTgtNDNjMC04YTBjLWE1MWNmYTBlMTQ4ZSIsInRva2VuX3VzZSI6ImFjY2VzcyIsInNjb3BlIjoiYXdzLmNvZ25pdG8uc2lnbmluLnVzZXIuYWRtaW4iLCJhdXRoX3RpbWUiOjE2NTQ3NDQ4MjEsImV4cCI6MTY1NTU2Nzg1MiwiaWF0IjoxNjU1NTY0MjUyLCJqdGkiOiIxNTRjZDQ0ZS0yNGU1LTQyOTUtOTUxOC1kMzk3NDE5ZGUwNDciLCJ1c2VybmFtZSI6IjhhZjM0MWIyLWQyMzUtNGE1OC1iZmY3LWU0ZjE2MTdlY2ZmYyJ9.HDSHvdDkTDiDUnLTfKUINit8GPWGW0bvrxUQCUXdOQmdL9HRVMYUSkNyxXN1J8Qwt16MMaYNfJxH3CW9EbUXNhEAQgm8yPPe1m2sKBZ0hI1V9WDBNqqgyrUv5ykbTg8HzYiRGYeKdEkMh7d7zGScwcjw393YG9HZVSeTOWzVLlJxjJr37Q7eFdeC3ETKdeS4lTL1g6-DrXN9GoTFKbZmzekY3TLkoeuxYWJz7cMo-qLTo--E0hfeA1LJPvCsaNmkL7xgczbMFfydeKfAz2Ed_bthBBJl1dZdq8Lw9-F4KWBEvGv9sIbJpfMYxWNarX5u7LcECbHqZswWj468_3892A",
+						"type": "text"
+					},
+					{
+						"key": "appid",
+						"value": "SdpZtPqwyEep4MkF9_uWb",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "{{HOST}}/taxes",
+					"host": [
+						"{{HOST}}"
+					],
+					"path": [
+						"taxes"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "get",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "eyJraWQiOiJDOGdMcHBcL216akZ0RVNKMzFvRXJ5UERucG5xNHFDdnprdlwvUHJseGRHcVk9IiwiYWxnIjoiUlMyNTYifQ.eyJzdWIiOiI4YWYzNDFiMi1kMjM1LTRhNTgtYmZmNy1lNGYxNjE3ZWNmZmMiLCJpc3MiOiJodHRwczpcL1wvY29nbml0by1pZHAudXMtZWFzdC0xLmFtYXpvbmF3cy5jb21cL3VzLWVhc3QtMV8yaWp6WDA2SDIiLCJjbGllbnRfaWQiOiI0dXRkZWV0ZW82MmFxM3AzOWQwY3F1dDFnNCIsIm9yaWdpbl9qdGkiOiI2NWE0YThhOS0zOThhLTRhZWQtYjNhMS0wOWRjMzU2NjJhZWIiLCJldmVudF9pZCI6IjliMjIyNjZjLTJhMTgtNDNjMC04YTBjLWE1MWNmYTBlMTQ4ZSIsInRva2VuX3VzZSI6ImFjY2VzcyIsInNjb3BlIjoiYXdzLmNvZ25pdG8uc2lnbmluLnVzZXIuYWRtaW4iLCJhdXRoX3RpbWUiOjE2NTQ3NDQ4MjEsImV4cCI6MTY1NTU2Nzg1MiwiaWF0IjoxNjU1NTY0MjUyLCJqdGkiOiIxNTRjZDQ0ZS0yNGU1LTQyOTUtOTUxOC1kMzk3NDE5ZGUwNDciLCJ1c2VybmFtZSI6IjhhZjM0MWIyLWQyMzUtNGE1OC1iZmY3LWU0ZjE2MTdlY2ZmYyJ9.HDSHvdDkTDiDUnLTfKUINit8GPWGW0bvrxUQCUXdOQmdL9HRVMYUSkNyxXN1J8Qwt16MMaYNfJxH3CW9EbUXNhEAQgm8yPPe1m2sKBZ0hI1V9WDBNqqgyrUv5ykbTg8HzYiRGYeKdEkMh7d7zGScwcjw393YG9HZVSeTOWzVLlJxjJr37Q7eFdeC3ETKdeS4lTL1g6-DrXN9GoTFKbZmzekY3TLkoeuxYWJz7cMo-qLTo--E0hfeA1LJPvCsaNmkL7xgczbMFfydeKfAz2Ed_bthBBJl1dZdq8Lw9-F4KWBEvGv9sIbJpfMYxWNarX5u7LcECbHqZswWj468_3892A",
+						"type": "text"
+					},
+					{
+						"key": "appid",
+						"value": "SdpZtPqwyEep4MkF9_uWb",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "{{HOST}}/taxes/oXOEJH5o1VdmGdlzXLSet",
+					"host": [
+						"{{HOST}}"
+					],
+					"path": [
+						"taxes",
+						"oXOEJH5o1VdmGdlzXLSet"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "create",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "eyJraWQiOiJDOGdMcHBcL216akZ0RVNKMzFvRXJ5UERucG5xNHFDdnprdlwvUHJseGRHcVk9IiwiYWxnIjoiUlMyNTYifQ.eyJzdWIiOiI4YWYzNDFiMi1kMjM1LTRhNTgtYmZmNy1lNGYxNjE3ZWNmZmMiLCJpc3MiOiJodHRwczpcL1wvY29nbml0by1pZHAudXMtZWFzdC0xLmFtYXpvbmF3cy5jb21cL3VzLWVhc3QtMV8yaWp6WDA2SDIiLCJjbGllbnRfaWQiOiI0dXRkZWV0ZW82MmFxM3AzOWQwY3F1dDFnNCIsIm9yaWdpbl9qdGkiOiI2NWE0YThhOS0zOThhLTRhZWQtYjNhMS0wOWRjMzU2NjJhZWIiLCJldmVudF9pZCI6IjliMjIyNjZjLTJhMTgtNDNjMC04YTBjLWE1MWNmYTBlMTQ4ZSIsInRva2VuX3VzZSI6ImFjY2VzcyIsInNjb3BlIjoiYXdzLmNvZ25pdG8uc2lnbmluLnVzZXIuYWRtaW4iLCJhdXRoX3RpbWUiOjE2NTQ3NDQ4MjEsImV4cCI6MTY1NTU2Nzg1MiwiaWF0IjoxNjU1NTY0MjUyLCJqdGkiOiIxNTRjZDQ0ZS0yNGU1LTQyOTUtOTUxOC1kMzk3NDE5ZGUwNDciLCJ1c2VybmFtZSI6IjhhZjM0MWIyLWQyMzUtNGE1OC1iZmY3LWU0ZjE2MTdlY2ZmYyJ9.HDSHvdDkTDiDUnLTfKUINit8GPWGW0bvrxUQCUXdOQmdL9HRVMYUSkNyxXN1J8Qwt16MMaYNfJxH3CW9EbUXNhEAQgm8yPPe1m2sKBZ0hI1V9WDBNqqgyrUv5ykbTg8HzYiRGYeKdEkMh7d7zGScwcjw393YG9HZVSeTOWzVLlJxjJr37Q7eFdeC3ETKdeS4lTL1g6-DrXN9GoTFKbZmzekY3TLkoeuxYWJz7cMo-qLTo--E0hfeA1LJPvCsaNmkL7xgczbMFfydeKfAz2Ed_bthBBJl1dZdq8Lw9-F4KWBEvGv9sIbJpfMYxWNarX5u7LcECbHqZswWj468_3892A",
+						"type": "text"
+					},
+					{
+						"key": "appid",
+						"value": "SdpZtPqwyEep4MkF9_uWb",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"name\": \"gap\",\n    \"value\": 10,\n    \"country\": \"srilanka\",\n    \"status\": \"published\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{HOST}}/taxes",
+					"host": [
+						"{{HOST}}"
+					],
+					"path": [
+						"taxes"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "update",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "eyJraWQiOiJDOGdMcHBcL216akZ0RVNKMzFvRXJ5UERucG5xNHFDdnprdlwvUHJseGRHcVk9IiwiYWxnIjoiUlMyNTYifQ.eyJzdWIiOiI4YWYzNDFiMi1kMjM1LTRhNTgtYmZmNy1lNGYxNjE3ZWNmZmMiLCJpc3MiOiJodHRwczpcL1wvY29nbml0by1pZHAudXMtZWFzdC0xLmFtYXpvbmF3cy5jb21cL3VzLWVhc3QtMV8yaWp6WDA2SDIiLCJjbGllbnRfaWQiOiI0dXRkZWV0ZW82MmFxM3AzOWQwY3F1dDFnNCIsIm9yaWdpbl9qdGkiOiI2NWE0YThhOS0zOThhLTRhZWQtYjNhMS0wOWRjMzU2NjJhZWIiLCJldmVudF9pZCI6IjliMjIyNjZjLTJhMTgtNDNjMC04YTBjLWE1MWNmYTBlMTQ4ZSIsInRva2VuX3VzZSI6ImFjY2VzcyIsInNjb3BlIjoiYXdzLmNvZ25pdG8uc2lnbmluLnVzZXIuYWRtaW4iLCJhdXRoX3RpbWUiOjE2NTQ3NDQ4MjEsImV4cCI6MTY1NTU2Nzg1MiwiaWF0IjoxNjU1NTY0MjUyLCJqdGkiOiIxNTRjZDQ0ZS0yNGU1LTQyOTUtOTUxOC1kMzk3NDE5ZGUwNDciLCJ1c2VybmFtZSI6IjhhZjM0MWIyLWQyMzUtNGE1OC1iZmY3LWU0ZjE2MTdlY2ZmYyJ9.HDSHvdDkTDiDUnLTfKUINit8GPWGW0bvrxUQCUXdOQmdL9HRVMYUSkNyxXN1J8Qwt16MMaYNfJxH3CW9EbUXNhEAQgm8yPPe1m2sKBZ0hI1V9WDBNqqgyrUv5ykbTg8HzYiRGYeKdEkMh7d7zGScwcjw393YG9HZVSeTOWzVLlJxjJr37Q7eFdeC3ETKdeS4lTL1g6-DrXN9GoTFKbZmzekY3TLkoeuxYWJz7cMo-qLTo--E0hfeA1LJPvCsaNmkL7xgczbMFfydeKfAz2Ed_bthBBJl1dZdq8Lw9-F4KWBEvGv9sIbJpfMYxWNarX5u7LcECbHqZswWj468_3892A",
+						"type": "text"
+					},
+					{
+						"key": "appid",
+						"value": "SdpZtPqwyEep4MkF9_uWb",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"name\": \"vat\",\n    \"value\": 12,\n    \"country\": \"srilanka\",\n    \"status\": \"published\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{HOST}}/taxes/oXOEJH5o1VdmGdlzXLSet",
+					"host": [
+						"{{HOST}}"
+					],
+					"path": [
+						"taxes",
+						"oXOEJH5o1VdmGdlzXLSet"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "delete",
+			"request": {
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "eyJraWQiOiJDOGdMcHBcL216akZ0RVNKMzFvRXJ5UERucG5xNHFDdnprdlwvUHJseGRHcVk9IiwiYWxnIjoiUlMyNTYifQ.eyJzdWIiOiI4YWYzNDFiMi1kMjM1LTRhNTgtYmZmNy1lNGYxNjE3ZWNmZmMiLCJpc3MiOiJodHRwczpcL1wvY29nbml0by1pZHAudXMtZWFzdC0xLmFtYXpvbmF3cy5jb21cL3VzLWVhc3QtMV8yaWp6WDA2SDIiLCJjbGllbnRfaWQiOiI0dXRkZWV0ZW82MmFxM3AzOWQwY3F1dDFnNCIsIm9yaWdpbl9qdGkiOiI2NWE0YThhOS0zOThhLTRhZWQtYjNhMS0wOWRjMzU2NjJhZWIiLCJldmVudF9pZCI6IjliMjIyNjZjLTJhMTgtNDNjMC04YTBjLWE1MWNmYTBlMTQ4ZSIsInRva2VuX3VzZSI6ImFjY2VzcyIsInNjb3BlIjoiYXdzLmNvZ25pdG8uc2lnbmluLnVzZXIuYWRtaW4iLCJhdXRoX3RpbWUiOjE2NTQ3NDQ4MjEsImV4cCI6MTY1NTU2Nzg1MiwiaWF0IjoxNjU1NTY0MjUyLCJqdGkiOiIxNTRjZDQ0ZS0yNGU1LTQyOTUtOTUxOC1kMzk3NDE5ZGUwNDciLCJ1c2VybmFtZSI6IjhhZjM0MWIyLWQyMzUtNGE1OC1iZmY3LWU0ZjE2MTdlY2ZmYyJ9.HDSHvdDkTDiDUnLTfKUINit8GPWGW0bvrxUQCUXdOQmdL9HRVMYUSkNyxXN1J8Qwt16MMaYNfJxH3CW9EbUXNhEAQgm8yPPe1m2sKBZ0hI1V9WDBNqqgyrUv5ykbTg8HzYiRGYeKdEkMh7d7zGScwcjw393YG9HZVSeTOWzVLlJxjJr37Q7eFdeC3ETKdeS4lTL1g6-DrXN9GoTFKbZmzekY3TLkoeuxYWJz7cMo-qLTo--E0hfeA1LJPvCsaNmkL7xgczbMFfydeKfAz2Ed_bthBBJl1dZdq8Lw9-F4KWBEvGv9sIbJpfMYxWNarX5u7LcECbHqZswWj468_3892A",
+						"type": "text"
+					},
+					{
+						"key": "appid",
+						"value": "SdpZtPqwyEep4MkF9_uWb",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "{{HOST}}/taxes/v_TTbMUREYVu3DM244M55",
+					"host": [
+						"{{HOST}}"
+					],
+					"path": [
+						"taxes",
+						"v_TTbMUREYVu3DM244M55"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

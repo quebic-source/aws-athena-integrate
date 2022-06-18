@@ -1,0 +1,24 @@
+{
+  "name": "api-test-gen-app-backend",
+  "version": "1.0.0",
+  "description": "api-test-gen-app-backend",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "devDependencies": {
+    "jest": "^26.4.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@gitlab.com/a9759/api-test-gen-app-backend.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/a9759/api-test-gen-app-backend/issues"
+  },
+  "homepage": "https://gitlab.com/a9759/api-test-gen-app-backend#readme"
+}

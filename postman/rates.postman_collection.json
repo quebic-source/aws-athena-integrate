@@ -1,0 +1,171 @@
+{
+	"info": {
+		"_postman_id": "e5eb43bb-50b0-4c3b-a233-b0c93e416321",
+		"name": "rates",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "8446910"
+	},
+	"item": [
+		{
+			"name": "list",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "eyJraWQiOiJDOGdMcHBcL216akZ0RVNKMzFvRXJ5UERucG5xNHFDdnprdlwvUHJseGRHcVk9IiwiYWxnIjoiUlMyNTYifQ.eyJzdWIiOiI4YWYzNDFiMi1kMjM1LTRhNTgtYmZmNy1lNGYxNjE3ZWNmZmMiLCJpc3MiOiJodHRwczpcL1wvY29nbml0by1pZHAudXMtZWFzdC0xLmFtYXpvbmF3cy5jb21cL3VzLWVhc3QtMV8yaWp6WDA2SDIiLCJjbGllbnRfaWQiOiI0dXRkZWV0ZW82MmFxM3AzOWQwY3F1dDFnNCIsIm9yaWdpbl9qdGkiOiI2NWE0YThhOS0zOThhLTRhZWQtYjNhMS0wOWRjMzU2NjJhZWIiLCJldmVudF9pZCI6IjliMjIyNjZjLTJhMTgtNDNjMC04YTBjLWE1MWNmYTBlMTQ4ZSIsInRva2VuX3VzZSI6ImFjY2VzcyIsInNjb3BlIjoiYXdzLmNvZ25pdG8uc2lnbmluLnVzZXIuYWRtaW4iLCJhdXRoX3RpbWUiOjE2NTQ3NDQ4MjEsImV4cCI6MTY1NTU3MTgzMSwiaWF0IjoxNjU1NTY4MjMxLCJqdGkiOiJiODM4ZmQ3OS00ZTlhLTRhMzEtYWVmNC0wM2U5MTgyYjg1MTQiLCJ1c2VybmFtZSI6IjhhZjM0MWIyLWQyMzUtNGE1OC1iZmY3LWU0ZjE2MTdlY2ZmYyJ9.ZeZnTUEZOGHCveULDZW5SqVPau_FXPENQ7s-Z_z58jQDH7PoME21MV6svRe4wpQzxrR88NkjqoXGVf9jAaHwS_yNshJb3PGVpXl8Kz28CQgwv9XldqT7BVazb4RrO6WKTkXWihXC3JmqS0DcY8zfQc6_dziGlxBXe7L86VSjVkBjXxB7JWakLEjSjp85_4HYaKOV3C1Syx8ho2OpcffiGhVhdzBlNj9ebnzLCLE7ORqlF7ZX-qsr5eFjnAPz7GgyNjCNSmwEbRk70wn2mAHMTMGpCAYggbCWpKI-SZ0ORphvj1Vfv-MZjyp5ANSsmDqA2wJG-KBtVc_eQHhpUD8j6Q",
+						"type": "text"
+					},
+					{
+						"key": "appid",
+						"value": "SdpZtPqwyEep4MkF9_uWb",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "{{HOST}}/rates",
+					"host": [
+						"{{HOST}}"
+					],
+					"path": [
+						"rates"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "get",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "eyJraWQiOiJDOGdMcHBcL216akZ0RVNKMzFvRXJ5UERucG5xNHFDdnprdlwvUHJseGRHcVk9IiwiYWxnIjoiUlMyNTYifQ.eyJzdWIiOiI4YWYzNDFiMi1kMjM1LTRhNTgtYmZmNy1lNGYxNjE3ZWNmZmMiLCJpc3MiOiJodHRwczpcL1wvY29nbml0by1pZHAudXMtZWFzdC0xLmFtYXpvbmF3cy5jb21cL3VzLWVhc3QtMV8yaWp6WDA2SDIiLCJjbGllbnRfaWQiOiI0dXRkZWV0ZW82MmFxM3AzOWQwY3F1dDFnNCIsIm9yaWdpbl9qdGkiOiI2NWE0YThhOS0zOThhLTRhZWQtYjNhMS0wOWRjMzU2NjJhZWIiLCJldmVudF9pZCI6IjliMjIyNjZjLTJhMTgtNDNjMC04YTBjLWE1MWNmYTBlMTQ4ZSIsInRva2VuX3VzZSI6ImFjY2VzcyIsInNjb3BlIjoiYXdzLmNvZ25pdG8uc2lnbmluLnVzZXIuYWRtaW4iLCJhdXRoX3RpbWUiOjE2NTQ3NDQ4MjEsImV4cCI6MTY1NTU3MTgzMSwiaWF0IjoxNjU1NTY4MjMxLCJqdGkiOiJiODM4ZmQ3OS00ZTlhLTRhMzEtYWVmNC0wM2U5MTgyYjg1MTQiLCJ1c2VybmFtZSI6IjhhZjM0MWIyLWQyMzUtNGE1OC1iZmY3LWU0ZjE2MTdlY2ZmYyJ9.ZeZnTUEZOGHCveULDZW5SqVPau_FXPENQ7s-Z_z58jQDH7PoME21MV6svRe4wpQzxrR88NkjqoXGVf9jAaHwS_yNshJb3PGVpXl8Kz28CQgwv9XldqT7BVazb4RrO6WKTkXWihXC3JmqS0DcY8zfQc6_dziGlxBXe7L86VSjVkBjXxB7JWakLEjSjp85_4HYaKOV3C1Syx8ho2OpcffiGhVhdzBlNj9ebnzLCLE7ORqlF7ZX-qsr5eFjnAPz7GgyNjCNSmwEbRk70wn2mAHMTMGpCAYggbCWpKI-SZ0ORphvj1Vfv-MZjyp5ANSsmDqA2wJG-KBtVc_eQHhpUD8j6Q",
+						"type": "text"
+					},
+					{
+						"key": "appid",
+						"value": "SdpZtPqwyEep4MkF9_uWb",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "{{HOST}}/rates/DWBZNWW7RNNw4yqj-pqNY",
+					"host": [
+						"{{HOST}}"
+					],
+					"path": [
+						"rates",
+						"DWBZNWW7RNNw4yqj-pqNY"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "create",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "eyJraWQiOiJDOGdMcHBcL216akZ0RVNKMzFvRXJ5UERucG5xNHFDdnprdlwvUHJseGRHcVk9IiwiYWxnIjoiUlMyNTYifQ.eyJzdWIiOiI4YWYzNDFiMi1kMjM1LTRhNTgtYmZmNy1lNGYxNjE3ZWNmZmMiLCJpc3MiOiJodHRwczpcL1wvY29nbml0by1pZHAudXMtZWFzdC0xLmFtYXpvbmF3cy5jb21cL3VzLWVhc3QtMV8yaWp6WDA2SDIiLCJjbGllbnRfaWQiOiI0dXRkZWV0ZW82MmFxM3AzOWQwY3F1dDFnNCIsIm9yaWdpbl9qdGkiOiI2NWE0YThhOS0zOThhLTRhZWQtYjNhMS0wOWRjMzU2NjJhZWIiLCJldmVudF9pZCI6IjliMjIyNjZjLTJhMTgtNDNjMC04YTBjLWE1MWNmYTBlMTQ4ZSIsInRva2VuX3VzZSI6ImFjY2VzcyIsInNjb3BlIjoiYXdzLmNvZ25pdG8uc2lnbmluLnVzZXIuYWRtaW4iLCJhdXRoX3RpbWUiOjE2NTQ3NDQ4MjEsImV4cCI6MTY1NTU3MTgzMSwiaWF0IjoxNjU1NTY4MjMxLCJqdGkiOiJiODM4ZmQ3OS00ZTlhLTRhMzEtYWVmNC0wM2U5MTgyYjg1MTQiLCJ1c2VybmFtZSI6IjhhZjM0MWIyLWQyMzUtNGE1OC1iZmY3LWU0ZjE2MTdlY2ZmYyJ9.ZeZnTUEZOGHCveULDZW5SqVPau_FXPENQ7s-Z_z58jQDH7PoME21MV6svRe4wpQzxrR88NkjqoXGVf9jAaHwS_yNshJb3PGVpXl8Kz28CQgwv9XldqT7BVazb4RrO6WKTkXWihXC3JmqS0DcY8zfQc6_dziGlxBXe7L86VSjVkBjXxB7JWakLEjSjp85_4HYaKOV3C1Syx8ho2OpcffiGhVhdzBlNj9ebnzLCLE7ORqlF7ZX-qsr5eFjnAPz7GgyNjCNSmwEbRk70wn2mAHMTMGpCAYggbCWpKI-SZ0ORphvj1Vfv-MZjyp5ANSsmDqA2wJG-KBtVc_eQHhpUD8j6Q",
+						"type": "text"
+					},
+					{
+						"key": "appid",
+						"value": "SdpZtPqwyEep4MkF9_uWb",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"roomType\": \"<roomTypeId>\",\n    \"startDate\": \"2022-06-09\",\n    \"endDate\": \"2022-08-09\",\n    \"package\": \"<packageId>\",\n    \"pricePerNight\": 2500,\n    \"numOfPeople\": 5,\n    \"pricePerExtraAdultPernight\": 800,\n    \"pricePerExtraChildPernight\": 600,\n    \"fixedSupplementPerStay\": \"test\",\n    \"discount\": 2,\n    \"discountType\": \"rate\",\n    \"includedTax\": \"<taxId>\",\n    \"addedTaxes\": [\"<taxId1>\", \"<taxId2>\"],\n    \"childrenRates\": [\n        {\n            \"ageMin\": 1,\n            \"ageMax\": 3,\n            \"price\": 250\n        },\n        {\n            \"ageMin\": 1,\n            \"ageMax\": 3,\n            \"price\": 50\n        }\n    ]\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{HOST}}/rates",
+					"host": [
+						"{{HOST}}"
+					],
+					"path": [
+						"rates"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "update",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "eyJraWQiOiJDOGdMcHBcL216akZ0RVNKMzFvRXJ5UERucG5xNHFDdnprdlwvUHJseGRHcVk9IiwiYWxnIjoiUlMyNTYifQ.eyJzdWIiOiI4YWYzNDFiMi1kMjM1LTRhNTgtYmZmNy1lNGYxNjE3ZWNmZmMiLCJpc3MiOiJodHRwczpcL1wvY29nbml0by1pZHAudXMtZWFzdC0xLmFtYXpvbmF3cy5jb21cL3VzLWVhc3QtMV8yaWp6WDA2SDIiLCJjbGllbnRfaWQiOiI0dXRkZWV0ZW82MmFxM3AzOWQwY3F1dDFnNCIsIm9yaWdpbl9qdGkiOiI2NWE0YThhOS0zOThhLTRhZWQtYjNhMS0wOWRjMzU2NjJhZWIiLCJldmVudF9pZCI6IjliMjIyNjZjLTJhMTgtNDNjMC04YTBjLWE1MWNmYTBlMTQ4ZSIsInRva2VuX3VzZSI6ImFjY2VzcyIsInNjb3BlIjoiYXdzLmNvZ25pdG8uc2lnbmluLnVzZXIuYWRtaW4iLCJhdXRoX3RpbWUiOjE2NTQ3NDQ4MjEsImV4cCI6MTY1NTU3MTgzMSwiaWF0IjoxNjU1NTY4MjMxLCJqdGkiOiJiODM4ZmQ3OS00ZTlhLTRhMzEtYWVmNC0wM2U5MTgyYjg1MTQiLCJ1c2VybmFtZSI6IjhhZjM0MWIyLWQyMzUtNGE1OC1iZmY3LWU0ZjE2MTdlY2ZmYyJ9.ZeZnTUEZOGHCveULDZW5SqVPau_FXPENQ7s-Z_z58jQDH7PoME21MV6svRe4wpQzxrR88NkjqoXGVf9jAaHwS_yNshJb3PGVpXl8Kz28CQgwv9XldqT7BVazb4RrO6WKTkXWihXC3JmqS0DcY8zfQc6_dziGlxBXe7L86VSjVkBjXxB7JWakLEjSjp85_4HYaKOV3C1Syx8ho2OpcffiGhVhdzBlNj9ebnzLCLE7ORqlF7ZX-qsr5eFjnAPz7GgyNjCNSmwEbRk70wn2mAHMTMGpCAYggbCWpKI-SZ0ORphvj1Vfv-MZjyp5ANSsmDqA2wJG-KBtVc_eQHhpUD8j6Q",
+						"type": "text"
+					},
+					{
+						"key": "appid",
+						"value": "SdpZtPqwyEep4MkF9_uWb",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"roomType\": \"<roomTypeId>\",\n    \"startDate\": \"2022-06-09\",\n    \"endDate\": \"2022-08-09\",\n    \"package\": \"<packageId>\",\n    \"pricePerNight\": 2500,\n    \"numOfPeople\": 5,\n    \"pricePerExtraAdultPernight\": 800,\n    \"pricePerExtraChildPernight\": 600,\n    \"fixedSupplementPerStay\": \"test\",\n    \"discount\": 2,\n    \"discountType\": \"rate\",\n    \"includedTax\": \"<taxId>\",\n    \"addedTaxes\": [\"<taxId1>\", \"<taxId2>\"],\n    \"childrenRates\": [\n        {\n            \"ageMin\": 1,\n            \"ageMax\": 3,\n            \"price\": 250\n        },\n        {\n            \"ageMin\": 1,\n            \"ageMax\": 3,\n            \"price\": 50\n        }\n    ]\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{HOST}}/rates/DWBZNWW7RNNw4yqj-pqNY",
+					"host": [
+						"{{HOST}}"
+					],
+					"path": [
+						"rates",
+						"DWBZNWW7RNNw4yqj-pqNY"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "delete",
+			"request": {
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "eyJraWQiOiJDOGdMcHBcL216akZ0RVNKMzFvRXJ5UERucG5xNHFDdnprdlwvUHJseGRHcVk9IiwiYWxnIjoiUlMyNTYifQ.eyJzdWIiOiI4YWYzNDFiMi1kMjM1LTRhNTgtYmZmNy1lNGYxNjE3ZWNmZmMiLCJpc3MiOiJodHRwczpcL1wvY29nbml0by1pZHAudXMtZWFzdC0xLmFtYXpvbmF3cy5jb21cL3VzLWVhc3QtMV8yaWp6WDA2SDIiLCJjbGllbnRfaWQiOiI0dXRkZWV0ZW82MmFxM3AzOWQwY3F1dDFnNCIsIm9yaWdpbl9qdGkiOiI2NWE0YThhOS0zOThhLTRhZWQtYjNhMS0wOWRjMzU2NjJhZWIiLCJldmVudF9pZCI6IjliMjIyNjZjLTJhMTgtNDNjMC04YTBjLWE1MWNmYTBlMTQ4ZSIsInRva2VuX3VzZSI6ImFjY2VzcyIsInNjb3BlIjoiYXdzLmNvZ25pdG8uc2lnbmluLnVzZXIuYWRtaW4iLCJhdXRoX3RpbWUiOjE2NTQ3NDQ4MjEsImV4cCI6MTY1NTU3MTgzMSwiaWF0IjoxNjU1NTY4MjMxLCJqdGkiOiJiODM4ZmQ3OS00ZTlhLTRhMzEtYWVmNC0wM2U5MTgyYjg1MTQiLCJ1c2VybmFtZSI6IjhhZjM0MWIyLWQyMzUtNGE1OC1iZmY3LWU0ZjE2MTdlY2ZmYyJ9.ZeZnTUEZOGHCveULDZW5SqVPau_FXPENQ7s-Z_z58jQDH7PoME21MV6svRe4wpQzxrR88NkjqoXGVf9jAaHwS_yNshJb3PGVpXl8Kz28CQgwv9XldqT7BVazb4RrO6WKTkXWihXC3JmqS0DcY8zfQc6_dziGlxBXe7L86VSjVkBjXxB7JWakLEjSjp85_4HYaKOV3C1Syx8ho2OpcffiGhVhdzBlNj9ebnzLCLE7ORqlF7ZX-qsr5eFjnAPz7GgyNjCNSmwEbRk70wn2mAHMTMGpCAYggbCWpKI-SZ0ORphvj1Vfv-MZjyp5ANSsmDqA2wJG-KBtVc_eQHhpUD8j6Q",
+						"type": "text"
+					},
+					{
+						"key": "appid",
+						"value": "SdpZtPqwyEep4MkF9_uWb",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "{{HOST}}/rates/1e7Go0EFn7td-gTPRVAL7",
+					"host": [
+						"{{HOST}}"
+					],
+					"path": [
+						"rates",
+						"1e7Go0EFn7td-gTPRVAL7"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

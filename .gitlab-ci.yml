@@ -1,0 +1,39 @@
+default:
+  image: quebicdocker/aws-pulumi:latest
+  before_script:
+  - pulumi version
+
+stages:
+  - validate
+  - build
+  - test
+  - deploy
+
+# validate:
+#   stage: validate
+#   script:
+#     - echo "validate"
+#   environment:
+#     name: development
+
+# test:
+#   stage: test
+#   script: 
+#     - cd src/admin-api
+#     - npm install
+#     - npm test
+#   environment:
+#     name: development
+
+dev_deploy:
+  stage: deploy
+  script:
+    - sh ./builder
+    - sh ./deployer dev
+  environment:
+    name: dev
+  when: manual
+  only:
+    - master
+  variables:
+    LAMBDA_HANDLERS_LOCATION: $CI_PROJECT_DIR/src

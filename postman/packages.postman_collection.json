@@ -1,0 +1,171 @@
+{
+	"info": {
+		"_postman_id": "c0ad9087-5334-4026-ab82-bb475a947775",
+		"name": "packages",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "8446910"
+	},
+	"item": [
+		{
+			"name": "list",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "eyJraWQiOiJDOGdMcHBcL216akZ0RVNKMzFvRXJ5UERucG5xNHFDdnprdlwvUHJseGRHcVk9IiwiYWxnIjoiUlMyNTYifQ.eyJzdWIiOiI4YWYzNDFiMi1kMjM1LTRhNTgtYmZmNy1lNGYxNjE3ZWNmZmMiLCJpc3MiOiJodHRwczpcL1wvY29nbml0by1pZHAudXMtZWFzdC0xLmFtYXpvbmF3cy5jb21cL3VzLWVhc3QtMV8yaWp6WDA2SDIiLCJjbGllbnRfaWQiOiI0dXRkZWV0ZW82MmFxM3AzOWQwY3F1dDFnNCIsIm9yaWdpbl9qdGkiOiI2NWE0YThhOS0zOThhLTRhZWQtYjNhMS0wOWRjMzU2NjJhZWIiLCJldmVudF9pZCI6IjliMjIyNjZjLTJhMTgtNDNjMC04YTBjLWE1MWNmYTBlMTQ4ZSIsInRva2VuX3VzZSI6ImFjY2VzcyIsInNjb3BlIjoiYXdzLmNvZ25pdG8uc2lnbmluLnVzZXIuYWRtaW4iLCJhdXRoX3RpbWUiOjE2NTQ3NDQ4MjEsImV4cCI6MTY1NTIxNDAxOCwiaWF0IjoxNjU1MjEwNDE4LCJqdGkiOiJlMjI1ZTQ5Yy0zMTVmLTQ1MWEtOGRkMS02ZDg0Yzk4YTAyNjUiLCJ1c2VybmFtZSI6IjhhZjM0MWIyLWQyMzUtNGE1OC1iZmY3LWU0ZjE2MTdlY2ZmYyJ9.aLVdHAteFY-XtCf55M4Knvcu3gdcvI-LCLq6AKT28db7x5rjgL9VQM2vXaGzcBxKsN9cCE_sIrIu2-IxhCE04YMYkcVP43kQ94bE481JHieVc4rl2vGBJDygTfSXUsSY1ud6ZvyndAJUMBCcGfOWbvdobFGQnAqTsa-ti6qBtC3cDUrFLrvBzSXs0ztHW1corVajo5NjGmiw3IZBYNQe6Rat5GdoPwolYy5H2wVQrD-hbR6WippLzZbyMRaCp4AgfoGY6Ss5r2rqvCTSYh0pSSutUV5ysW3T4REY4SN0LOytcAZ4vao9gxH0lzj4yQIavjcLSFZi4_atU5zlfuA4uw",
+						"type": "text"
+					},
+					{
+						"key": "appid",
+						"value": "SdpZtPqwyEep4MkF9_uWb",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "{{HOST}}/packages",
+					"host": [
+						"{{HOST}}"
+					],
+					"path": [
+						"packages"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "get",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "eyJraWQiOiJDOGdMcHBcL216akZ0RVNKMzFvRXJ5UERucG5xNHFDdnprdlwvUHJseGRHcVk9IiwiYWxnIjoiUlMyNTYifQ.eyJzdWIiOiI4YWYzNDFiMi1kMjM1LTRhNTgtYmZmNy1lNGYxNjE3ZWNmZmMiLCJpc3MiOiJodHRwczpcL1wvY29nbml0by1pZHAudXMtZWFzdC0xLmFtYXpvbmF3cy5jb21cL3VzLWVhc3QtMV8yaWp6WDA2SDIiLCJjbGllbnRfaWQiOiI0dXRkZWV0ZW82MmFxM3AzOWQwY3F1dDFnNCIsIm9yaWdpbl9qdGkiOiI2NWE0YThhOS0zOThhLTRhZWQtYjNhMS0wOWRjMzU2NjJhZWIiLCJldmVudF9pZCI6IjliMjIyNjZjLTJhMTgtNDNjMC04YTBjLWE1MWNmYTBlMTQ4ZSIsInRva2VuX3VzZSI6ImFjY2VzcyIsInNjb3BlIjoiYXdzLmNvZ25pdG8uc2lnbmluLnVzZXIuYWRtaW4iLCJhdXRoX3RpbWUiOjE2NTQ3NDQ4MjEsImV4cCI6MTY1NTIxNDAxOCwiaWF0IjoxNjU1MjEwNDE4LCJqdGkiOiJlMjI1ZTQ5Yy0zMTVmLTQ1MWEtOGRkMS02ZDg0Yzk4YTAyNjUiLCJ1c2VybmFtZSI6IjhhZjM0MWIyLWQyMzUtNGE1OC1iZmY3LWU0ZjE2MTdlY2ZmYyJ9.aLVdHAteFY-XtCf55M4Knvcu3gdcvI-LCLq6AKT28db7x5rjgL9VQM2vXaGzcBxKsN9cCE_sIrIu2-IxhCE04YMYkcVP43kQ94bE481JHieVc4rl2vGBJDygTfSXUsSY1ud6ZvyndAJUMBCcGfOWbvdobFGQnAqTsa-ti6qBtC3cDUrFLrvBzSXs0ztHW1corVajo5NjGmiw3IZBYNQe6Rat5GdoPwolYy5H2wVQrD-hbR6WippLzZbyMRaCp4AgfoGY6Ss5r2rqvCTSYh0pSSutUV5ysW3T4REY4SN0LOytcAZ4vao9gxH0lzj4yQIavjcLSFZi4_atU5zlfuA4uw",
+						"type": "text"
+					},
+					{
+						"key": "appid",
+						"value": "SdpZtPqwyEep4MkF9_uWb",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "{{HOST}}/packages/pTasfIep0cYH_drzjJw1Z",
+					"host": [
+						"{{HOST}}"
+					],
+					"path": [
+						"packages",
+						"pTasfIep0cYH_drzjJw1Z"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "create",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "eyJraWQiOiJDOGdMcHBcL216akZ0RVNKMzFvRXJ5UERucG5xNHFDdnprdlwvUHJseGRHcVk9IiwiYWxnIjoiUlMyNTYifQ.eyJzdWIiOiI4YWYzNDFiMi1kMjM1LTRhNTgtYmZmNy1lNGYxNjE3ZWNmZmMiLCJpc3MiOiJodHRwczpcL1wvY29nbml0by1pZHAudXMtZWFzdC0xLmFtYXpvbmF3cy5jb21cL3VzLWVhc3QtMV8yaWp6WDA2SDIiLCJjbGllbnRfaWQiOiI0dXRkZWV0ZW82MmFxM3AzOWQwY3F1dDFnNCIsIm9yaWdpbl9qdGkiOiI2NWE0YThhOS0zOThhLTRhZWQtYjNhMS0wOWRjMzU2NjJhZWIiLCJldmVudF9pZCI6IjliMjIyNjZjLTJhMTgtNDNjMC04YTBjLWE1MWNmYTBlMTQ4ZSIsInRva2VuX3VzZSI6ImFjY2VzcyIsInNjb3BlIjoiYXdzLmNvZ25pdG8uc2lnbmluLnVzZXIuYWRtaW4iLCJhdXRoX3RpbWUiOjE2NTQ3NDQ4MjEsImV4cCI6MTY1NTIxNDAxOCwiaWF0IjoxNjU1MjEwNDE4LCJqdGkiOiJlMjI1ZTQ5Yy0zMTVmLTQ1MWEtOGRkMS02ZDg0Yzk4YTAyNjUiLCJ1c2VybmFtZSI6IjhhZjM0MWIyLWQyMzUtNGE1OC1iZmY3LWU0ZjE2MTdlY2ZmYyJ9.aLVdHAteFY-XtCf55M4Knvcu3gdcvI-LCLq6AKT28db7x5rjgL9VQM2vXaGzcBxKsN9cCE_sIrIu2-IxhCE04YMYkcVP43kQ94bE481JHieVc4rl2vGBJDygTfSXUsSY1ud6ZvyndAJUMBCcGfOWbvdobFGQnAqTsa-ti6qBtC3cDUrFLrvBzSXs0ztHW1corVajo5NjGmiw3IZBYNQe6Rat5GdoPwolYy5H2wVQrD-hbR6WippLzZbyMRaCp4AgfoGY6Ss5r2rqvCTSYh0pSSutUV5ysW3T4REY4SN0LOytcAZ4vao9gxH0lzj4yQIavjcLSFZi4_atU5zlfuA4uw",
+						"type": "text"
+					},
+					{
+						"key": "appid",
+						"value": "SdpZtPqwyEep4MkF9_uWb",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"name\": \"Package-1\",\n    \"days\": [1, 5],\n    \"checkIn\": 1,\n    \"checkOut\": 3,\n    \"minNights\": 5,\n    \"maxNights\": 10\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{HOST}}/packages",
+					"host": [
+						"{{HOST}}"
+					],
+					"path": [
+						"packages"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "update",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "eyJraWQiOiJDOGdMcHBcL216akZ0RVNKMzFvRXJ5UERucG5xNHFDdnprdlwvUHJseGRHcVk9IiwiYWxnIjoiUlMyNTYifQ.eyJzdWIiOiI4YWYzNDFiMi1kMjM1LTRhNTgtYmZmNy1lNGYxNjE3ZWNmZmMiLCJpc3MiOiJodHRwczpcL1wvY29nbml0by1pZHAudXMtZWFzdC0xLmFtYXpvbmF3cy5jb21cL3VzLWVhc3QtMV8yaWp6WDA2SDIiLCJjbGllbnRfaWQiOiI0dXRkZWV0ZW82MmFxM3AzOWQwY3F1dDFnNCIsIm9yaWdpbl9qdGkiOiI2NWE0YThhOS0zOThhLTRhZWQtYjNhMS0wOWRjMzU2NjJhZWIiLCJldmVudF9pZCI6IjliMjIyNjZjLTJhMTgtNDNjMC04YTBjLWE1MWNmYTBlMTQ4ZSIsInRva2VuX3VzZSI6ImFjY2VzcyIsInNjb3BlIjoiYXdzLmNvZ25pdG8uc2lnbmluLnVzZXIuYWRtaW4iLCJhdXRoX3RpbWUiOjE2NTQ3NDQ4MjEsImV4cCI6MTY1NTIxNDAxOCwiaWF0IjoxNjU1MjEwNDE4LCJqdGkiOiJlMjI1ZTQ5Yy0zMTVmLTQ1MWEtOGRkMS02ZDg0Yzk4YTAyNjUiLCJ1c2VybmFtZSI6IjhhZjM0MWIyLWQyMzUtNGE1OC1iZmY3LWU0ZjE2MTdlY2ZmYyJ9.aLVdHAteFY-XtCf55M4Knvcu3gdcvI-LCLq6AKT28db7x5rjgL9VQM2vXaGzcBxKsN9cCE_sIrIu2-IxhCE04YMYkcVP43kQ94bE481JHieVc4rl2vGBJDygTfSXUsSY1ud6ZvyndAJUMBCcGfOWbvdobFGQnAqTsa-ti6qBtC3cDUrFLrvBzSXs0ztHW1corVajo5NjGmiw3IZBYNQe6Rat5GdoPwolYy5H2wVQrD-hbR6WippLzZbyMRaCp4AgfoGY6Ss5r2rqvCTSYh0pSSutUV5ysW3T4REY4SN0LOytcAZ4vao9gxH0lzj4yQIavjcLSFZi4_atU5zlfuA4uw",
+						"type": "text"
+					},
+					{
+						"key": "appid",
+						"value": "SdpZtPqwyEep4MkF9_uWb",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"name\": \"Package-1 update\",\n    \"days\": [1, 5],\n    \"checkIn\": 1,\n    \"checkOut\": 3,\n    \"minNights\": 5,\n    \"maxNights\": 10\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{HOST}}/packages/pTasfIep0cYH_drzjJw1Z",
+					"host": [
+						"{{HOST}}"
+					],
+					"path": [
+						"packages",
+						"pTasfIep0cYH_drzjJw1Z"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "delete",
+			"request": {
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "eyJraWQiOiJDOGdMcHBcL216akZ0RVNKMzFvRXJ5UERucG5xNHFDdnprdlwvUHJseGRHcVk9IiwiYWxnIjoiUlMyNTYifQ.eyJzdWIiOiI4YWYzNDFiMi1kMjM1LTRhNTgtYmZmNy1lNGYxNjE3ZWNmZmMiLCJpc3MiOiJodHRwczpcL1wvY29nbml0by1pZHAudXMtZWFzdC0xLmFtYXpvbmF3cy5jb21cL3VzLWVhc3QtMV8yaWp6WDA2SDIiLCJjbGllbnRfaWQiOiI0dXRkZWV0ZW82MmFxM3AzOWQwY3F1dDFnNCIsIm9yaWdpbl9qdGkiOiI2NWE0YThhOS0zOThhLTRhZWQtYjNhMS0wOWRjMzU2NjJhZWIiLCJldmVudF9pZCI6IjliMjIyNjZjLTJhMTgtNDNjMC04YTBjLWE1MWNmYTBlMTQ4ZSIsInRva2VuX3VzZSI6ImFjY2VzcyIsInNjb3BlIjoiYXdzLmNvZ25pdG8uc2lnbmluLnVzZXIuYWRtaW4iLCJhdXRoX3RpbWUiOjE2NTQ3NDQ4MjEsImV4cCI6MTY1NTIxNDAxOCwiaWF0IjoxNjU1MjEwNDE4LCJqdGkiOiJlMjI1ZTQ5Yy0zMTVmLTQ1MWEtOGRkMS02ZDg0Yzk4YTAyNjUiLCJ1c2VybmFtZSI6IjhhZjM0MWIyLWQyMzUtNGE1OC1iZmY3LWU0ZjE2MTdlY2ZmYyJ9.aLVdHAteFY-XtCf55M4Knvcu3gdcvI-LCLq6AKT28db7x5rjgL9VQM2vXaGzcBxKsN9cCE_sIrIu2-IxhCE04YMYkcVP43kQ94bE481JHieVc4rl2vGBJDygTfSXUsSY1ud6ZvyndAJUMBCcGfOWbvdobFGQnAqTsa-ti6qBtC3cDUrFLrvBzSXs0ztHW1corVajo5NjGmiw3IZBYNQe6Rat5GdoPwolYy5H2wVQrD-hbR6WippLzZbyMRaCp4AgfoGY6Ss5r2rqvCTSYh0pSSutUV5ysW3T4REY4SN0LOytcAZ4vao9gxH0lzj4yQIavjcLSFZi4_atU5zlfuA4uw",
+						"type": "text"
+					},
+					{
+						"key": "appid",
+						"value": "SdpZtPqwyEep4MkF9_uWb",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "{{HOST}}/packages/pTasfIep0cYH_drzjJw1Z",
+					"host": [
+						"{{HOST}}"
+					],
+					"path": [
+						"packages",
+						"pTasfIep0cYH_drzjJw1Z"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

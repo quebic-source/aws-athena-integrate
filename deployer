@@ -1,0 +1,11 @@
+#!/usr/bin/env sh
+
+echo "deploy $1 start"
+cd infra
+npm install
+pulumi login
+pulumi stack select $1
+pulumi config set-all --plaintext aws:region=$AWS_DEFAULT_REGION
+pulumi config set --path 'aws:allowedAccountIds[0]' $AWS_ACCOUNT_ID
+pulumi up --yes --skip-preview
+echo "deploy $1 done"

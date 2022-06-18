@@ -1,0 +1,170 @@
+{
+	"info": {
+		"_postman_id": "1e1b28ad-6220-4a8a-a354-b971316c3262",
+		"name": "locations",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "list",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "eyJraWQiOiJDOGdMcHBcL216akZ0RVNKMzFvRXJ5UERucG5xNHFDdnprdlwvUHJseGRHcVk9IiwiYWxnIjoiUlMyNTYifQ.eyJzdWIiOiIyY2UxNjgxNC02MDliLTQwZDItODRjMi05M2IzZGRiYTA5ZTAiLCJpc3MiOiJodHRwczpcL1wvY29nbml0by1pZHAudXMtZWFzdC0xLmFtYXpvbmF3cy5jb21cL3VzLWVhc3QtMV8yaWp6WDA2SDIiLCJ2ZXJzaW9uIjoyLCJjbGllbnRfaWQiOiI0dXRkZWV0ZW82MmFxM3AzOWQwY3F1dDFnNCIsIm9yaWdpbl9qdGkiOiI5YTE2YmYyYi1mZWY3LTQwNTItYWEzMy1iY2FmOWE4YzBmNTciLCJldmVudF9pZCI6ImIyNmJlNTQ2LTI2NWQtNDBiOS05MWFmLWVjYWMzNTY3NTg0NSIsInRva2VuX3VzZSI6ImFjY2VzcyIsInNjb3BlIjoiYXdzLmNvZ25pdG8uc2lnbmluLnVzZXIuYWRtaW4gcGhvbmUgb3BlbmlkIHByb2ZpbGUgZW1haWwiLCJhdXRoX3RpbWUiOjE2NDk2MDY0NjcsImV4cCI6MTY0OTYxMDA2NywiaWF0IjoxNjQ5NjA2NDY3LCJqdGkiOiI1MGZjNDA0MC0wYWY5LTQ1ZGUtYWYxZS04MGEwMzgwM2VjYzMiLCJ1c2VybmFtZSI6IjJjZTE2ODE0LTYwOWItNDBkMi04NGMyLTkzYjNkZGJhMDllMCJ9.qpZsttkD2zbDO0knsUvQK8P4ztZcVFXPmJfqiUq5I-pjZP5y2MAxJsMS0JmBIRrAnR3PvNRI7SgTN_T2kcanhFPBpitrlLU-F64g1q_E8B7CZjFS9_t6ZW2sA3F1XETAvVSKS0Zezkcsr67flVWO-t42G4Amcf5EFG_PgC_HpvUptuQDD82S-pZIx3S9HS9pGdNHKHQ1t6Rz1_Zz9ELl9gaDJ1d_xNorrjJ2eXVcOZ6_P4oCGS27-Mj4LIcXTB7Vtb3TRsvdBYWUIhRBA3i53usSW_j3Nsm-uWe9_YhGxw3LKlZhRqTmLh2Kj5je4EIdSQSkRe67jmicycpbEwf8Ng",
+						"type": "text"
+					},
+					{
+						"key": "appid",
+						"value": "Haw6R5abpC5R48jn9mBUF",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "{{HOST}}/locations",
+					"host": [
+						"{{HOST}}"
+					],
+					"path": [
+						"locations"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "get",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "eyJraWQiOiJDOGdMcHBcL216akZ0RVNKMzFvRXJ5UERucG5xNHFDdnprdlwvUHJseGRHcVk9IiwiYWxnIjoiUlMyNTYifQ.eyJzdWIiOiIyY2UxNjgxNC02MDliLTQwZDItODRjMi05M2IzZGRiYTA5ZTAiLCJpc3MiOiJodHRwczpcL1wvY29nbml0by1pZHAudXMtZWFzdC0xLmFtYXpvbmF3cy5jb21cL3VzLWVhc3QtMV8yaWp6WDA2SDIiLCJ2ZXJzaW9uIjoyLCJjbGllbnRfaWQiOiI0dXRkZWV0ZW82MmFxM3AzOWQwY3F1dDFnNCIsIm9yaWdpbl9qdGkiOiJiMWQ2ZjMzYi00YjUwLTQ3YjgtOTI1MS0zMDQ4ZjMwYjMwZWUiLCJldmVudF9pZCI6IjljYzUwZWEyLWIyNDAtNDY4Zi1hOTYwLWE4NDZmMDBjYmFkYyIsInRva2VuX3VzZSI6ImFjY2VzcyIsInNjb3BlIjoiYXdzLmNvZ25pdG8uc2lnbmluLnVzZXIuYWRtaW4gcGhvbmUgb3BlbmlkIHByb2ZpbGUgZW1haWwiLCJhdXRoX3RpbWUiOjE2NDgyNDc2NzcsImV4cCI6MTY0ODI1MTI3NywiaWF0IjoxNjQ4MjQ3Njc3LCJqdGkiOiI1NjhlOGUzYi01NjlmLTRjM2ItOTg0ZS1hZTdlYjRjNmM3YTEiLCJ1c2VybmFtZSI6IjJjZTE2ODE0LTYwOWItNDBkMi04NGMyLTkzYjNkZGJhMDllMCJ9.YfGZNlU8iKiYxZoqQHKLh2CJR0uG4qyk7q_aiXUm5iXoN0tyg3UlgOe-DeN2zvY8Bqs8rnGqfEVQZLwYkv5mbmMCL3HwEBEk_mJ0zhG2WU4mbsk18P-wfwU-FYEdBdtXsYAlcAR6PWDr5dZi_cl2pUMAflx03PZHSJ3MTuUqieZzpgUeR7yq85jwZjaobt6ZN1YtBxIswwDY3e2cJaDyKPWk1t8e3nP_zbhgr3CsNbWTJC-ggrsZX24Rbhzk14EqLgNO_KwNlRrP-TLNseAIrUBBh_BRaQNTSdYGGMZzmkhprLkMcEGniKnpzdTGJtnEFZq4I048WDtAAaWZsOMVzg",
+						"type": "text"
+					},
+					{
+						"key": "appid",
+						"value": "Haw6R5abpC5R48jn9mBUF",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "{{HOST}}/locations/LDhLjjE1SxsFY_QH84EAE",
+					"host": [
+						"{{HOST}}"
+					],
+					"path": [
+						"locations",
+						"LDhLjjE1SxsFY_QH84EAE"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "create",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "eyJraWQiOiJDOGdMcHBcL216akZ0RVNKMzFvRXJ5UERucG5xNHFDdnprdlwvUHJseGRHcVk9IiwiYWxnIjoiUlMyNTYifQ.eyJzdWIiOiIyY2UxNjgxNC02MDliLTQwZDItODRjMi05M2IzZGRiYTA5ZTAiLCJpc3MiOiJodHRwczpcL1wvY29nbml0by1pZHAudXMtZWFzdC0xLmFtYXpvbmF3cy5jb21cL3VzLWVhc3QtMV8yaWp6WDA2SDIiLCJ2ZXJzaW9uIjoyLCJjbGllbnRfaWQiOiI0dXRkZWV0ZW82MmFxM3AzOWQwY3F1dDFnNCIsIm9yaWdpbl9qdGkiOiI5YTE2YmYyYi1mZWY3LTQwNTItYWEzMy1iY2FmOWE4YzBmNTciLCJldmVudF9pZCI6ImIyNmJlNTQ2LTI2NWQtNDBiOS05MWFmLWVjYWMzNTY3NTg0NSIsInRva2VuX3VzZSI6ImFjY2VzcyIsInNjb3BlIjoiYXdzLmNvZ25pdG8uc2lnbmluLnVzZXIuYWRtaW4gcGhvbmUgb3BlbmlkIHByb2ZpbGUgZW1haWwiLCJhdXRoX3RpbWUiOjE2NDk2MDY0NjcsImV4cCI6MTY0OTYxMDA2NywiaWF0IjoxNjQ5NjA2NDY3LCJqdGkiOiI1MGZjNDA0MC0wYWY5LTQ1ZGUtYWYxZS04MGEwMzgwM2VjYzMiLCJ1c2VybmFtZSI6IjJjZTE2ODE0LTYwOWItNDBkMi04NGMyLTkzYjNkZGJhMDllMCJ9.qpZsttkD2zbDO0knsUvQK8P4ztZcVFXPmJfqiUq5I-pjZP5y2MAxJsMS0JmBIRrAnR3PvNRI7SgTN_T2kcanhFPBpitrlLU-F64g1q_E8B7CZjFS9_t6ZW2sA3F1XETAvVSKS0Zezkcsr67flVWO-t42G4Amcf5EFG_PgC_HpvUptuQDD82S-pZIx3S9HS9pGdNHKHQ1t6Rz1_Zz9ELl9gaDJ1d_xNorrjJ2eXVcOZ6_P4oCGS27-Mj4LIcXTB7Vtb3TRsvdBYWUIhRBA3i53usSW_j3Nsm-uWe9_YhGxw3LKlZhRqTmLh2Kj5je4EIdSQSkRe67jmicycpbEwf8Ng",
+						"type": "text"
+					},
+					{
+						"key": "appid",
+						"value": "Haw6R5abpC5R48jn9mBUF",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"name\": \"loc-2\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{HOST}}/locations",
+					"host": [
+						"{{HOST}}"
+					],
+					"path": [
+						"locations"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "update",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "eyJraWQiOiJDOGdMcHBcL216akZ0RVNKMzFvRXJ5UERucG5xNHFDdnprdlwvUHJseGRHcVk9IiwiYWxnIjoiUlMyNTYifQ.eyJzdWIiOiI1YjYwMTU3NS0yZThmLTQ1NWMtYTA1YS00NDNmZGYzNGM4NDUiLCJpc3MiOiJodHRwczpcL1wvY29nbml0by1pZHAudXMtZWFzdC0xLmFtYXpvbmF3cy5jb21cL3VzLWVhc3QtMV8yaWp6WDA2SDIiLCJ2ZXJzaW9uIjoyLCJjbGllbnRfaWQiOiI0dXRkZWV0ZW82MmFxM3AzOWQwY3F1dDFnNCIsIm9yaWdpbl9qdGkiOiJmMjcwNGFjMC1mYzJjLTRhMGMtYjIyZi01MTk4N2I5NTQ5N2YiLCJldmVudF9pZCI6ImMwZTA4MWJiLTdmZmYtNGNmYS04OWJmLWJjODVkNDFhZGNlZSIsInRva2VuX3VzZSI6ImFjY2VzcyIsInNjb3BlIjoiYXdzLmNvZ25pdG8uc2lnbmluLnVzZXIuYWRtaW4gcGhvbmUgb3BlbmlkIHByb2ZpbGUgZW1haWwiLCJhdXRoX3RpbWUiOjE2NDgyNDM5NTksImV4cCI6MTY0ODI0NzU1OSwiaWF0IjoxNjQ4MjQzOTU5LCJqdGkiOiJlNWI4MjRjMS0zZTMzLTRlNDYtYWNlNy01MjAwOGI0MjFmYjgiLCJ1c2VybmFtZSI6IjViNjAxNTc1LTJlOGYtNDU1Yy1hMDVhLTQ0M2ZkZjM0Yzg0NSJ9.Kb0UWeqAduC6LKer3glYcikohDMl2XsHXBshztJ195SIwjAdIWvBZW5kN6a4ielFgiBwFMuh-FovFLYBUOYI03XRV3A-TJJWlhTA0y-YeNmW7dp121EuC4APQGuRK2Ju1FHPtWIv5TnuY6RjCKWRWF6J0n0g68twqOyrz_zOCoKz7Vo5F1MViBFpW33Z4n07D746BtKBMhPhYDFzx2vTLIYT7a9f90xGmXkRe6rT67-oOaLrHLF84Kojh0DPBw8AjHfpzXXcDcTlZpngduLRR_VYmU83oml6FPkVm2Cm-tJxHhFJujaBwtxl30Pc-wCAK4ixMKIWil5weV3P0GrrTA",
+						"type": "text"
+					},
+					{
+						"key": "appid",
+						"value": "Haw6R5abpC5R48jn9mBUF",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"name\": \"test-app-1\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{HOST}}/locations/H5CgZdOemDYTWeA5RKhTT",
+					"host": [
+						"{{HOST}}"
+					],
+					"path": [
+						"locations",
+						"H5CgZdOemDYTWeA5RKhTT"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "delete",
+			"request": {
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "eyJraWQiOiJDOGdMcHBcL216akZ0RVNKMzFvRXJ5UERucG5xNHFDdnprdlwvUHJseGRHcVk9IiwiYWxnIjoiUlMyNTYifQ.eyJzdWIiOiIyY2UxNjgxNC02MDliLTQwZDItODRjMi05M2IzZGRiYTA5ZTAiLCJpc3MiOiJodHRwczpcL1wvY29nbml0by1pZHAudXMtZWFzdC0xLmFtYXpvbmF3cy5jb21cL3VzLWVhc3QtMV8yaWp6WDA2SDIiLCJ2ZXJzaW9uIjoyLCJjbGllbnRfaWQiOiI0dXRkZWV0ZW82MmFxM3AzOWQwY3F1dDFnNCIsIm9yaWdpbl9qdGkiOiI5YTE2YmYyYi1mZWY3LTQwNTItYWEzMy1iY2FmOWE4YzBmNTciLCJldmVudF9pZCI6ImIyNmJlNTQ2LTI2NWQtNDBiOS05MWFmLWVjYWMzNTY3NTg0NSIsInRva2VuX3VzZSI6ImFjY2VzcyIsInNjb3BlIjoiYXdzLmNvZ25pdG8uc2lnbmluLnVzZXIuYWRtaW4gcGhvbmUgb3BlbmlkIHByb2ZpbGUgZW1haWwiLCJhdXRoX3RpbWUiOjE2NDk2MDY0NjcsImV4cCI6MTY0OTYxMDA2NywiaWF0IjoxNjQ5NjA2NDY3LCJqdGkiOiI1MGZjNDA0MC0wYWY5LTQ1ZGUtYWYxZS04MGEwMzgwM2VjYzMiLCJ1c2VybmFtZSI6IjJjZTE2ODE0LTYwOWItNDBkMi04NGMyLTkzYjNkZGJhMDllMCJ9.qpZsttkD2zbDO0knsUvQK8P4ztZcVFXPmJfqiUq5I-pjZP5y2MAxJsMS0JmBIRrAnR3PvNRI7SgTN_T2kcanhFPBpitrlLU-F64g1q_E8B7CZjFS9_t6ZW2sA3F1XETAvVSKS0Zezkcsr67flVWO-t42G4Amcf5EFG_PgC_HpvUptuQDD82S-pZIx3S9HS9pGdNHKHQ1t6Rz1_Zz9ELl9gaDJ1d_xNorrjJ2eXVcOZ6_P4oCGS27-Mj4LIcXTB7Vtb3TRsvdBYWUIhRBA3i53usSW_j3Nsm-uWe9_YhGxw3LKlZhRqTmLh2Kj5je4EIdSQSkRe67jmicycpbEwf8Ng",
+						"type": "text"
+					},
+					{
+						"key": "appid",
+						"value": "Haw6R5abpC5R48jn9mBUF",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "{{HOST}}/locations/rvszjxUfgbWayirEfk1YF",
+					"host": [
+						"{{HOST}}"
+					],
+					"path": [
+						"locations",
+						"rvszjxUfgbWayirEfk1YF"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
