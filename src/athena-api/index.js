@@ -32,7 +32,7 @@ exports.handler = async function (event, context) {
                 }
             });
             const response = await athenaClient.send(command);
-            return sendResponse(response);
+            return sendResponse({'queryExecutionId': response.QueryExecutionId});
 
         } else {
             throw new InvalidError(`invalid route ${resourcePath}:${httpMethod}`);
