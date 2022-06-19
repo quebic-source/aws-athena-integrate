@@ -9,5 +9,6 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@aws-sdk/client-athena": "^3.112.0"
   }
 }
