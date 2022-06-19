@@ -1,3 +1,3 @@
-name: einthotel-booking-backend
+name: aws-athena-integrate
 runtime: nodejs
-description: einthotel-booking-backend
+description: aws-athena-integrate

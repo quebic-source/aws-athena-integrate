@@ -1,15 +1,15 @@
 config:
   aws:allowedAccountIds:
-  - 522160353755
+  - 893502944061
   aws:region: us-east-1
   project:apigateway:
     accessControlAllowHeaders: Content-Type,X-Amz-Date,Authorization,X-Api-Key,X-Amz-Security-Token,appid,appId,locationid
     accessControlAllowMethods: GET,POST,PUT,PATCH,DELETE,OPTIONS
     accessControlAllowOrigin: '*'
   project:apigatewayRoute:
-    domain: dev-booking-api.tripeka.lk
-    domainCertArn: arn:aws:acm:us-east-1:522160353755:certificate/6afffd78-04ba-41a2-9cd9-0857129f93d7
-    hostedZoneId: Z02078002SP9ANVBFN5W4
+    domain: VAR
+    domainCertArn: VAR
+    hostedZoneId: VAR
   project:auth:
     authorizedResources: /apps/{appId},
     authorizerFunc: authorizer-api

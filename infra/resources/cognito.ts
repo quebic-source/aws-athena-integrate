@@ -1,3 +1,4 @@
+import * as pulumi from "@pulumi/pulumi";
 import {ProjectConfig} from "../config/project-config";
 import * as aws from "@pulumi/aws";
 import {getResourceName} from "../helpers/utils/common-utils";
@@ -79,7 +80,7 @@ export default class Cognito {
     }
 
     private createUserPoolDomain() {
-        const domainName = getResourceName("auth");
+        const domainName = `athena-auth-${pulumi.getStack()}`;
         return new aws.cognito.UserPoolDomain(domainName, {
             domain: domainName,
             userPoolId: this._userPool.id,

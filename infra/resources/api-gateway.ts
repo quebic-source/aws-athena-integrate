@@ -56,33 +56,33 @@ export default class ApiGateway {
         });
 
         // TODO dont have domain yet
-        const { domain, domainCertArn, hostedZoneId } = this.projectConfig.apigatewayRouteConfig;
-        const apiDomainName = new aws.apigateway.DomainName(getResourceName('domain-name'), {
-            certificateArn: domainCertArn,
-            domainName: domain,
-        });
-
-        new aws.route53.Record(domain, {
-            zoneId: hostedZoneId,
-            name: domain,
-            type: "A",
-            aliases: [
-                {
-                    name: apiDomainName.cloudfrontDomainName,
-                    zoneId: apiDomainName.cloudfrontZoneId,
-                    evaluateTargetHealth: true
-                }
-            ]
-        });
-
-        new aws.apigateway.BasePathMapping(
-            getResourceName('domain-mapping'),
-            {
-                restApi: api.restAPI.id,
-                stageName: api.stage.stageName,
-                domainName: apiDomainName.domainName,
-            }
-        );
+        // const { domain, domainCertArn, hostedZoneId } = this.projectConfig.apigatewayRouteConfig;
+        // const apiDomainName = new aws.apigateway.DomainName(getResourceName('domain-name'), {
+        //     certificateArn: domainCertArn,
+        //     domainName: domain,
+        // });
+        //
+        // new aws.route53.Record(domain, {
+        //     zoneId: hostedZoneId,
+        //     name: domain,
+        //     type: "A",
+        //     aliases: [
+        //         {
+        //             name: apiDomainName.cloudfrontDomainName,
+        //             zoneId: apiDomainName.cloudfrontZoneId,
+        //             evaluateTargetHealth: true
+        //         }
+        //     ]
+        // });
+        //
+        // new aws.apigateway.BasePathMapping(
+        //     getResourceName('domain-mapping'),
+        //     {
+        //         restApi: api.restAPI.id,
+        //         stageName: api.stage.stageName,
+        //         domainName: apiDomainName.domainName,
+        //     }
+        // );
     }
 
     private setupOptionEndpoint() {
