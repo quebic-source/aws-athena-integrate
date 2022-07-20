@@ -32,6 +32,7 @@ exports.handler = async function (event, context) {
                 }
             });
             const response = await athenaClient.send(command);
+            console.log("RESPONSE", response);
             return sendResponse({'queryExecutionId': response.QueryExecutionId});
 
         } else {

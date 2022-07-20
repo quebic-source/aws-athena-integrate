@@ -3,7 +3,7 @@ config:
   - 893502944061
   aws:region: us-east-1
   project:apigateway:
-    accessControlAllowHeaders: Content-Type,X-Amz-Date,Authorization,X-Api-Key,X-Amz-Security-Token,appid,appId,locationid
+    accessControlAllowHeaders: Content-Type,X-Amz-Date,Authorization,X-Api-Key,X-Amz-Security-Token
     accessControlAllowMethods: GET,POST,PUT,PATCH,DELETE,OPTIONS
     accessControlAllowOrigin: '*'
   project:apigatewayRoute:
