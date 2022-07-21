@@ -20,7 +20,7 @@ export default class AthenaApiStack {
             envVariables: envVariables,
             layers: lambdaLayers.getDefaultLayers(),
         });
-        this.apiGateway.addEndpoint(this._apiFunc.lambdaFunc, "/athena", "GET");
+        this.apiGateway.addEndpoint(this._apiFunc.lambdaFunc, "/athena", "POST");
     }
 
     public get apiFunc() {
