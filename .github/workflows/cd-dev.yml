@@ -25,7 +25,9 @@ jobs:
       - uses: actions/setup-node@v3
         with:
           node-version: 16
-      - run: sh ./builder
+      - run: npm install --prefix authorizer
+      - run: npm install --prefix athena-api
+      - run: npm install --prefix layers/common/3rd-party/nodejs/node14
 
   deploy:
     name: deploy
