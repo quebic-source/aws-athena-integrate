@@ -20,15 +20,16 @@ exports.handler = async function (event, context) {
         const resourcePath = event.resource;
         const httpMethod = event.httpMethod;
 
-        if (resourcePath === RESOURCE_PATH && httpMethod === "GET") {
+        if (resourcePath === RESOURCE_PATH && httpMethod === "POST") {
+            const request = getRequestBody(event);
             const command = new StartQueryExecutionCommand({
-                "QueryString": "SELECT * FROM testdb.dim_answer;",
+                QueryString: request.queryString,
                 QueryExecutionContext: {
-                    Catalog: "target_db_demo_2",
-                    Database: "testdb"
+                    Catalog: request.catalog,
+                    Database: request.database
                 },
                 ResultConfiguration: {
-                    OutputLocation: "s3://athena-demo-test-1/query-results"
+                    OutputLocation: request.outputLocation
                 }
             });
             const response = await athenaClient.send(command);

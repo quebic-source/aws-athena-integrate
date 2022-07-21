@@ -6,16 +6,19 @@ beforeEach(() => {
     };
 });
 
-test('get success', async () => {
+test('query success', async () => {
     const func = require("../../src/athena-api");
     const body = JSON.stringify(
         {
-
+            "queryString": "SELECT * FROM testdb.dim_answer;",
+            "catalog": "target_db_demo_2",
+            "database": "testdb",
+            "outputLocation": "s3://athena-demo-test-1/query-results",
         }
     )
     const event = {
         resource: '/athena',
-        httpMethod: 'GET',
+        httpMethod: 'POST',
         body: Buffer.from(body).toString('base64'),
         pathParameters: {},
         requestContext: {
