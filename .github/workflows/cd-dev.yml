@@ -28,6 +28,9 @@ jobs:
       - run: npm install --prefix authorizer
       - run: npm install --prefix athena-api
       - run: npm install --prefix layers/common/3rd-party/nodejs/node14
+      - run: ls authorizer
+      - run: ls athena-api
+      - run: ls layers/common/3rd-party/nodejs
 
   deploy:
     name: deploy
