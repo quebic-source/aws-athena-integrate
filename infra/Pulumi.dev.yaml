@@ -1,7 +1,7 @@
 config:
   aws:allowedAccountIds:
-  - 893502944061
-  aws:region: us-east-1
+  - 114190052706
+  aws:region: us-west-1
   project:apigateway:
     accessControlAllowHeaders: Content-Type,X-Amz-Date,Authorization,X-Api-Key,X-Amz-Security-Token
     accessControlAllowMethods: GET,POST,PUT,PATCH,DELETE,OPTIONS
