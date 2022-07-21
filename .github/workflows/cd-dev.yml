@@ -13,29 +13,9 @@ env:
   PULUMI_ACCESS_TOKEN: ${{ secrets.PULUMI_ACCESS_TOKEN_DEV }}
 
 jobs:
-  build:
-    name: build
-    runs-on: ubuntu-latest
-    defaults:
-      run:
-        working-directory: ./src
-    steps:
-      - uses: actions/checkout@v2
-      - uses: actions/setup-node@v3
-        with:
-          node-version: 16
-      - run: npm install --prefix authorizer
-      - run: npm install --prefix athena-api
-      - run: npm install --prefix layers/common/3rd-party/nodejs/node14
-      - run: ls authorizer
-      - run: ls athena-api
-      - run: ls layers/common/3rd-party/nodejs
-
   deploy:
     name: deploy
     runs-on: ubuntu-latest
-    needs:
-      - build
     defaults:
       run:
         working-directory: ./infra
@@ -44,7 +24,12 @@ jobs:
       - uses: actions/setup-node@v3
         with:
           node-version: 16
+      - run: echo "start install"
+      - run: npm install --prefix  ../src/authorizer
+      - run: npm install --prefix  ../src/athena-api
+      - run: npm install --prefix  ../src/layers/common/3rd-party/nodejs/node14
       - run: npm install
+      - run: echo "completed install"
       - name: pulumi up
         uses: pulumi/actions@v3
         with:
