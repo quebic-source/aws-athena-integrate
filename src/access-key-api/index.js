@@ -28,14 +28,12 @@ exports.handler = async function (event, context) {
             const accessKey = await service.create(request);
             return sendResponse({accessKey});
         } else if (httpMethod === "DELETE") {
-            const requestBody = getRequestBody(event);
-            const request = {...requestBody, ...pathParameters};
-            const check = requiredFieldsCheck(request, ['customerId']);
+            const check = requiredFieldsCheck(pathParameters, ['customerId']);
             if (!check.valid) {
                 throw new ValidationError(check);
             }
 
-            await service.delete(request);
+            await service.delete(pathParameters);
             return sendGeneralMessage("deleted");
         } {
             throw new InvalidError(`invalid route`);
