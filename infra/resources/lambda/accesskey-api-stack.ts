@@ -16,6 +16,7 @@ export default class AccessKeyApiStack {
         this.projectConfig = new ProjectConfig();
 
         const envVariables: any = {};
+        envVariables['DYNAMO_DB_TABLE'] = table.name;
         envVariables['ACCESS_KEY_PREFIX'] = this.projectConfig.accessKeyConfig.prefix;
         envVariables[ACCESS_KEY_SECRET] = this.projectConfig.accessKeyConfig.secret;
 
