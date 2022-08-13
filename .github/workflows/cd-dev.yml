@@ -26,7 +26,9 @@ jobs:
           node-version: 16
       - run: echo "start install"
       - run: npm install --prefix  ../src/authorizer
+      - run: npm install --prefix  ../src/api-key-authorizer
       - run: npm install --prefix  ../src/athena-api
+      - run: npm install --prefix  ../src/access-key-api
       - run: npm install --prefix  ../src/layers/common/3rd-party/nodejs/node14
       - run: npm install
       - run: echo "completed install"
