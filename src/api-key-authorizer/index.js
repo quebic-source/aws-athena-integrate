@@ -10,7 +10,7 @@ exports.handler = async function (event, context, callback) {
     console.log("context", context);
 
     try {
-        const token = event.headers['Authorization'].replace("Bearer ", "");
+        const token = event.headers['apikey'];
         const claims = jwt.verify(token, process.env.ACCESS_KEY_SECRET);;
         const { customerId, ref, key } = claims;
 
