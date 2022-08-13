@@ -11,7 +11,6 @@ export default class ApiKeyAuthorizer {
         const projectConfig = new ProjectConfig();
 
         const envVariables: any = {};
-        envVariables["AWS_REGION"] = projectConfig.region;
         envVariables["AWS_ACCOUNT_ID"] = projectConfig.accountId;
         envVariables[ACCESS_KEY_SECRET] = projectConfig.accessKeyConfig.secret;
 
